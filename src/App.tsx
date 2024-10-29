@@ -1,7 +1,9 @@
 
 import React from 'react';
 import './App.css'
-import ItemList from './components/ItemList'
+// import ItemList from './components/ItemList'
+
+const ItemList = React.lazy(() => import('./components/ItemList'));
 
 const App: React.FC = () => {
   return (

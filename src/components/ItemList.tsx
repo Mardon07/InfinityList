@@ -3,6 +3,8 @@ import { observer } from "mobx-react-lite";
 import itemStore from "../store/ItemStore";
 import RepositoryCard from "./RepositoryCard";
 
+// const RepositoryCard = React.lazy(() => import('./RepositoryCard'));
+
 const ItemList: React.FC = observer(() => {
   const loaderRef = useRef<HTMLDivElement | null>(null);
 
