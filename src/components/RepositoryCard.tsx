@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Card, Typography } from "antd";
-import { Item } from "../store/item";
+import { Item } from "../store/Item";
 import itemStore from "../store/ItemStore";
 
 const { Text } = Typography;

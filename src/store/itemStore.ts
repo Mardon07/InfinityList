@@ -1,6 +1,6 @@
 import { makeAutoObservable } from "mobx";
 import axios from "axios";
-import { Item } from "./item";
+import { Item } from "./Item";
 
 class ItemStore {
   items: Item[] = [];
